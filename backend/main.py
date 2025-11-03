@@ -40,7 +40,7 @@ def response_to_speech(text):
             response = str(result)
 
         print("🤖 Agent:", response)
-        engine.say(response) 
+        engine.say(response)  # Now this is a string
         engine.runAndWait()
 
     except Exception as e:
