@@ -52,6 +52,6 @@ if __name__ == "__main__":
         text = speech_to_text()
         print(f"You said: {text}")
         if text.lower().strip() in ["exit", "stop", "quit"]:
-            print("👋 Exiting...")
+            print("Exiting...")
             break
         response_to_speech(text)
